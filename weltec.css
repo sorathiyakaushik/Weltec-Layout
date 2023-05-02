@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.frist{
+    background-color: blue;
+    color: white;
+    font-size: 23px;
+}
+p{
+    display: inline-block;
+    padding: 10px;
+   
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+div.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+img.seaction1{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+h1.seaction2{
+    position: absolute;
+    top: 50%;
+    font-size: 60px;
+    margin-left: 54%;
+}
+span{
+    color: blue;
+}
+img.imgtext{
+    height: 320px;
+}
+div.flot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+h2.text1{
+    font-size: 50px;
+}
+p.text2{
+    font-size: 20px;
+    line-height: 28px;
+}
+button.text3{
+    padding: 15px 73px;
+    background-color: blue;
+    color: white;
+    border: none;
+    letter-spacing: 5px
+}
+h2.mode1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+div.class{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 163px;
+}
+div.mode{
+    height: 433px;
+}
+img.same{
+    width: 20%;
+    height:auto;
+}
+div.img4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 156px;
+}
+h2.what1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    div.frist {
+        background-color: blue;
+        color: white;
+        font-size: 14px;
+    }
+    
+    ul{
+        display: none;
+    }
+
+    .logo img{
+        margin-left: 32%;
+    }
+    h1.seaction2 {
+        position: absolute;
+        top: 80%;
+        font-size: 25px;
+        margin-left: 54%;
+    }
+    img.imgtext {
+        display: none;
+    }
+    div.text{
+        text-align: center;
+    }
+    h2.text1 {
+        font-size: 35px;
+    }
+    button.text3 {
+        padding: 15px 30px;
+        background-color: blue;
+        color: white;
+        border: none;
+        letter-spacing: 5px;
+    }
+    div.class {
+        text-align: center;
+        margin-top: 35px;
+        flex-direction: column  
+
+    }
+    div.right{
+        margin-top: 49px;
+
+    }
+    div.img4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 45px;
+        gap: 15px;
+    }
+    img.same {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 600px)and(max-width: 768px) {
+    div.frist {
+        background-color: blue;
+        color: white;
+        font-size: 24px;
+    }
+    
+    ul{
+        display: none;
+    }
+
+    .logo img{
+        margin-left: 32%;
+    }
+    h1.seaction2 {
+        position: absolute;
+        top: 80%;
+        font-size: 25px;
+        margin-left: 54%;
+    }
+    img.imgtext {
+        display: none;
+    }
+    div.text{
+        text-align: center;
+    }
+    h2.text1 {
+        font-size: 35px;
+    }
+    button.text3 {
+        padding: 15px 30px;
+        background-color: blue;
+        color: white;
+        border: none;
+        letter-spacing: 5px;
+    }
+    div.class {
+        text-align: center;
+        margin-top: 35px;
+        flex-direction: column  
+
+    }
+    div.right{
+        margin-top: 49px;
+
+    }
+    div.img4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 45px;
+        gap: 15px;
+    }
+    img.same {
+        width: 50%;
+        height: auto;
+    }
+}
+
+
+@media screen and (min-width: 768px)and(max-width: 992px) {
+    div.frist {
+        background-color: blue;
+        color: white;
+        font-size: 24px;
+    }
+    
+    ul{
+        display: none;
+    }
+
+    .logo img{
+        margin-left: 32%;
+    }
+    h1.seaction2 {
+        position: absolute;
+        top: 80%;
+        font-size: 25px;
+        margin-left: 54%;
+    }
+    img.imgtext {
+        visibility: none;
+    }
+    div.text{
+        text-align: center;
+    }
+    h2.text1 {
+        font-size: 35px;
+    }
+    button.text3 {
+        padding: 15px 30px;
+        background-color: blue;
+        color: white;
+        border: none;
+        letter-spacing: 5px;
+    }
+    div.class {
+        text-align: center;
+        margin-top: 35px;
+        flex-direction: column  
+
+    }
+    div.right{
+        margin-top: 49px;
+
+    }
+    div.img4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 45px;
+        gap: 15px;
+    }
+    img.same {
+        width: 50%;
+        height: auto;
+    }
+}
